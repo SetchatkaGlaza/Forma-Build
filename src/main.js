@@ -1,0 +1,2 @@
+import './styles/variables.css';import './styles/base.css';import './styles/layout.css';import './styles/components.css';import './styles/responsive.css';
+import './scripts/projects.js';import './scripts/gallery.js';import './scripts/navigation.js';import './scripts/animations.js';import './scripts/calculator.js';import './scripts/form.js';import './scripts/materials.js';import './scripts/policy.js';

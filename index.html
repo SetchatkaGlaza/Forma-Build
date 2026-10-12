@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FORMA BUILD — проектирование и строительство частных домов</title>
+<meta name="description" content="FORMA BUILD — проектируем и строим современные частные дома: от архитектурной идеи до передачи ключей. Обсудите проект и получите ориентир по стоимости.">
+<meta property="og:title" content="FORMA BUILD — архитектура, воплощённая в жизнь">
+<meta property="og:description" content="Проектируем и строим современные частные дома с вниманием к деталям.">
+<meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://example.com/images/og/og-image.jpg">
+<link rel="icon" href="forma-icon.ico" sizes="any"><link rel="icon" href="forma-icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="manifest" href="site.webmanifest"><meta name="theme-color" content="#222629">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="header" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#top">FORMA<b>BUILD</b></a>
+    <nav id="nav" class="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a><a href="#projects">Проекты</a><a href="#about">О компании</a><a href="#process">Этапы работы</a>
+      <a class="btn btn-sm nav-cta" href="#contact">Обсудить проект</a>
+    </nav>
+    <a class="tel" href="tel:+74951204530">+7 (495) 120-45-30</a>
+    <button class="burger" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero dark">
+  <picture class="bg"><source media="(max-width:767px)" srcset="images/hero/hero-house-mobile.webp"><img src="images/hero/hero-house.webp" alt="Современный бетонный дом с панорамным остеклением под тёмным небом" width="2400" height="1439" fetchpriority="high"></picture>
+  <video class="bgvid" autoplay muted loop playsinline preload="metadata" poster="video/hero-loop-poster.webp" aria-hidden="true"><source src="video/hero-loop.webm" type="video/webm"><source src="video/hero-loop.mp4" type="video/mp4"></video>
+  <div class="wrap hero-in">
+    <p class="kicker">Строительство частных домов</p>
+    <h1><span class="ln"><span>Архитектура,</span></span> <span class="ln"><span>воплощённая</span></span> <span class="ln"><span>в жизнь</span></span></h1>
+    <p class="lead">Проектируем и строим современные дома с вниманием к деталям и каждому этапу реализации.</p>
+    <div class="actions"><a class="btn" href="#contact">Обсудить проект</a><a class="link" href="#projects">Смотреть проекты ↗</a></div>
+  </div>
+<a class="cue" href="#about" aria-label="Прокрутить вниз"><span></span></a></section>
+
+<section class="sec" id="about">
+  <div class="wrap split">
+    <div><h2>От проекта до готового дома</h2>
+    <p>Мы собираем архитектурную идею, инженерные решения и строительство в один процесс. Каждый шаг согласуется с вами, а изменения фиксируются до начала работ.</p>
+    <ul class="principles"><li><b>Последовательность</b> — работы идут по согласованному порядку.</li><li><b>Контроль этапов</b> — результат сверяется с проектом.</li><li><b>Согласование решений</b> — ключевые изменения обсуждаем заранее.</li></ul></div>
+    <img class="ph" loading="lazy" src="images/about/about-company-m.webp" srcset="images/about/about-company-m.webp 800w, images/about/about-company.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Бетонный дом с тёплым светом в окнах в синие сумерки" width="1536" height="1024">
+  </div>
+</section>
+
+<section class="sec alt" id="projects">
+  <div class="wrap">
+    <h2>Проекты</h2>
+    
+    <div class="filters" role="group" aria-label="Фильтр проектов"><button class="chip on" data-f="all">Все</button><button class="chip" data-f="Загородный дом">Загородный дом</button><button class="chip" data-f="Дом с двором">Дом с двором</button><button class="chip" data-f="Резиденция">Резиденция</button></div>
+    <div class="cards" id="cards"></div>
+  </div>
+</section>
+
+<section class="sec" id="services">
+  <div class="wrap"><h2>От первого чертежа до готового пространства</h2>
+  <p class="lead2">Проектирование, организация работ и реализация согласованных решений в рамках единого процесса.</p>
+  <div class="grid4">
+    <article class="svc"><img loading="lazy" src="images/services/service-design-m.webp" srcset="images/services/service-design-m.webp 800w, images/services/service-design.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Чертежи и макет дома на столе архитектора"><h3>Проектирование частного дома</h3><p>Архитектурная концепция, планировки и техническое задание.</p><a href="#contact" data-type="Проектирование">Подробнее</a></article>
+    <article class="svc"><img loading="lazy" src="images/services/service-turnkey-m.webp" srcset="images/services/service-turnkey-m.webp 800w, images/services/service-turnkey.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Готовый дом в сумерках"><h3>Строительство под ключ</h3><p>Полный цикл от подготовки участка до передачи объекта.</p><a href="#contact" data-type="Строительство">Подробнее</a></article>
+    <article class="svc"><img loading="lazy" src="images/services/service-shell-m.webp" srcset="images/services/service-shell-m.webp 800w, images/services/service-shell.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Бетонный каркас двухэтажного дома"><h3>Коробка и основные работы</h3><p>Фундамент, несущие конструкции, перекрытия и кровля.</p><a href="#contact" data-type="Строительство">Подробнее</a></article>
+    <article class="svc"><img loading="lazy" src="images/services/service-reconstruction-m.webp" srcset="images/services/service-reconstruction-m.webp 800w, images/services/service-reconstruction.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Кирпичный дом с современной бетонной пристройкой"><h3>Реконструкция и модернизация</h3><p>Обновление существующего дома и новые объёмы.</p><a href="#contact" data-type="Реконструкция">Подробнее</a></article>
+  </div></div>
+</section>
+
+<section class="sec dark" id="advantages">
+  <div class="wrap"><h2>Почему с нами удобно работать</h2>
+  <ul class="adv">
+    <li><h3>Понятные этапы</h3><p>Вы всегда знаете, что происходит сейчас и что дальше.</p></li>
+    <li><h3>Согласование решений</h3><p>Ключевые изменения обсуждаем до их выполнения.</p></li>
+    <li><h3>Контроль по проекту</h3><p>Работы сверяются с проектной документацией.</p></li>
+    <li><h3>Прозрачный бюджет</h3><p>Стоимость обсуждается на основе параметров дома.</p></li>
+    <li><h3>Одна точка связи</h3><p>Один контакт по всем вопросам проекта.</p></li>
+  </ul></div>
+</section>
+
+<section class="sec" id="process">
+  <div class="wrap"><h2>Этапы строительства</h2>
+  <figure class="wide"><img src="images/process/construction-process-m.webp" srcset="images/process/construction-process-m.webp 800w, images/process/construction-process.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 100vw,90vw" alt="Строительная площадка: бетонные стены, арматура и башенный кран" width="1536" height="864" loading="lazy"></figure>
+  <ol class="steps">
+    <li><span>1</span><h3>Консультация</h3><p>Обсуждаем задачу, участок и пожелания.</p></li>
+    <li><span>2</span><h3>Проектирование</h3><p>Формируем ТЗ и разрабатываем проект.</p></li>
+    <li><span>3</span><h3>Смета и график</h3><p>Согласовываем бюджет и сроки работ.</p></li>
+    <li><span>4</span><h3>Строительство</h3><p>Выполняем работы и контролируем этапы.</p></li>
+    <li><span>5</span><h3>Передача объекта</h3><p>Завершаем работы и передаём дом.</p></li>
+  </ol></div>
+</section>
+
+<section class="sec alt" id="budget">
+  <div class="wrap split">
+    <div><h2>Прозрачность бюджета</h2>
+    <p>Стоимость зависит от площади, архитектурной сложности, материалов и объёма работ. Укажите параметры — получите ориентир.</p>
+    <img class="ph" loading="lazy" src="images/budget/budget-planning-m.webp" srcset="images/budget/budget-planning-m.webp 800w, images/budget/budget-planning.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Чертежи, линейка и макет дома на бетонном столе" width="1536" height="1024"></div>
+    <form class="calc" id="calc" aria-label="Предварительный расчёт">
+      <label><span>Площадь дома: <output id="areaOut">180</output> м²</span><input type="range" id="area" min="60" max="600" step="10" value="180"></label>
+      <label>Сложность архитектуры<select id="cx"><option value="1">Простая</option><option value="1.2" selected>Средняя</option><option value="1.45">Сложная</option></select></label>
+      <label>Материалы и отделка<select id="mat"><option value="0.9">Базовые</option><option value="1" selected>Стандартные</option><option value="1.3">Премиальные</option></select></label>
+      <label>Объём работ<select id="scope"><option value="0.25">Проектирование</option><option value="0.6">Коробка дома</option><option value="1" selected>Под ключ</option></select></label>
+      <div class="res" aria-live="polite"><span>Ориентировочная стоимость</span><strong id="price"></strong></div>
+      <button type="button" class="btn" id="toForm">Передать расчёт в заявку</button>
+      <p class="note">Предварительная оценка. Итоговую стоимость определяет смета после проектирования.</p>
+    </form>
+  </div>
+</section>
+
+<section class="band dark" id="band1" aria-label="Каждый этап под контролем"><video class="bandvid" muted loop playsinline preload="none" poster="video/construction-process-loop-poster.webp" aria-hidden="true"><source src="video/construction-process-loop.webm" type="video/webm"><source src="video/construction-process-loop.mp4" type="video/mp4"></video><div class="wrap band-in"><p class="kicker">Каждый этап под контролем</p><h2>Строим по проекту, а не по догадке</h2></div></section>
+
+<section class="sec" id="quality">
+  <div class="wrap"><h2>Контроль качества</h2>
+  <p class="lead2">Проверяем параметры на каждом этапе и согласуем с вами любые изменения.</p>
+  <div class="grid3">
+    <figure><img loading="lazy" src="images/quality/quality-rebar-m.webp" srcset="images/quality/quality-rebar-m.webp 800w, images/quality/quality-rebar.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Армирование с рулеткой и уровнем"><figcaption><b>Армирование.</b> Шаг арматуры и геометрия до заливки бетона.</figcaption></figure>
+    <figure><img loading="lazy" src="images/quality/quality-materials-m.webp" srcset="images/quality/quality-materials-m.webp 800w, images/quality/quality-materials.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Образцы строительных материалов"><figcaption><b>Материалы.</b> Соответствие образцов согласованной спецификации.</figcaption></figure>
+    <figure><img loading="lazy" src="images/quality/quality-wall-layers-m.webp" srcset="images/quality/quality-wall-layers-m.webp 800w, images/quality/quality-wall-layers.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Слои наружной стены в разрезе"><figcaption><b>Узлы.</b> Последовательность слоёв стены и примыканий.</figcaption></figure>
+  </div></div>
+</section>
+
+<section class="sec alt" id="materials"><div class="wrap"><h2>Материалы фасада и интерьера</h2><p class="lead2">Подбираем сочетание под участок, климат и бюджет.</p>
+<div class="tabs" role="tablist" aria-label="Материалы"></div>
+<div class="mat-panel" id="matPanel" role="tabpanel"><img id="matImg" src="images/details/architecture-detail.webp" alt="Фактура бетона и чёрная рама окна" width="1536" height="1024" loading="lazy"><div><h3 id="matT">Бетон</h3><p id="matP">Фактура опалубки остаётся на виду и придаёт фасаду выразительность без лишней отделки.</p></div></div></div></section>
+
+<section class="band dark" id="band2" aria-label="Детали"><video class="bandvid" muted loop playsinline preload="none" poster="video/architecture-detail-loop-poster.webp" aria-hidden="true"><source src="video/architecture-detail-loop.webm" type="video/webm"><source src="video/architecture-detail-loop.mp4" type="video/mp4"></video><div class="wrap band-in"><p class="kicker">Детали</p><h2>Геометрия, которую видно в мелочах</h2></div></section>
+
+<section class="sec" id="gallery"><div class="wrap"><h2>Подборка архитектурных решений</h2><p class="lead2">Фрагменты и ракурсы наших объектов. Нажмите, чтобы открыть на весь экран.</p><div class="gal"><button type="button" aria-label="Открыть: Фактура бетона и чёрная рама окна"><img loading="lazy" src="images/details/architecture-detail-m.webp" data-full="images/details/architecture-detail.webp" alt="Фактура бетона и чёрная рама окна"></button><button type="button" aria-label="Открыть: Консоль балкона и тонкое ограждение"><img loading="lazy" src="images/details/architecture-detail-2-m.webp" data-full="images/details/architecture-detail-2.webp" alt="Консоль балкона и тонкое ограждение"></button><button type="button" aria-label="Открыть: Дом вокруг внутреннего двора, вид сверху"><img loading="lazy" src="images/projects/project-courtyard-gallery-2-m.webp" data-full="images/projects/project-courtyard-gallery-2.webp" alt="Дом вокруг внутреннего двора, вид сверху"></button><button type="button" aria-label="Открыть: Фасад резиденции с отражением в воде"><img loading="lazy" src="images/projects/project-horizon-gallery-2-m.webp" data-full="images/projects/project-horizon-gallery-2.webp" alt="Фасад резиденции с отражением в воде"></button></div></div></section>
+
+<section class="sec alt" id="faq">
+  <div class="wrap split">
+    <div><h2>Ответы на сомнения</h2>
+    <details><summary>Чем коробка отличается от строительства под ключ?</summary><p>Коробка включает фундамент, стены, перекрытия и кровлю. Под ключ добавляет инженерные системы, отделку и передачу готового дома.</p></details>
+    <details><summary>Как согласуются смета и график?</summary><p>После проектирования мы готовим смету и график и обсуждаем их с вами до начала работ.</p></details>
+    <details><summary>Как выбрать проект и материалы?</summary><p>На консультации обсуждаем участок, бюджет и образ жизни, затем подбираем решения.</p></details>
+    <details><summary>В каких регионах вы работаете?</summary><p>Строим в Москве и Московской области. Объекты в других регионах обсуждаем индивидуально.</p></details></div>
+    <img class="ph" loading="lazy" src="images/faq/faq-gallery-m.webp" srcset="images/faq/faq-gallery-m.webp 800w, images/faq/faq-gallery.webp 1536w" sizes="(max-width:767px) 100vw,(max-width:1023px) 50vw,40vw" alt="Спокойная гостиная с дубом и бетоном" width="1536" height="1024">
+  </div>
+</section>
+
+<section class="sec dark" id="contact">
+  <div class="wrap split">
+    <div><h2>Расскажите, каким вы видите свой дом</h2><p>Обсудим задачу, определим основные этапы и подготовим основу для планирования.</p>
+    <ul class="contacts"><li><span>Телефон</span><a href="tel:+74951204530">+7 (495) 120-45-30</a></li><li><span>Email</span><a href="mailto:info@forma-build.ru">info@forma-build.ru</a></li><li><span>Офис</span>г. Москва, ул. Складочная, 1, стр. 12, офис 304</li><li><span>Часы работы</span>Пн–Пт 9:00–19:00, Сб 10:00–16:00</li></ul></div>
+    <form class="lead-form" id="lead" novalidate>
+      <label>Имя<input name="name" autocomplete="name" required><small class="err"></small></label>
+      <label>Телефон или email<input name="contact" autocomplete="tel" required><small class="err"></small></label>
+      <label>Тип задачи<select name="type"><option>Проектирование</option><option>Строительство</option><option>Реконструкция</option><option>Другое</option></select></label>
+      <label>Комментарий (необязательно)<textarea name="msg" rows="3"></textarea></label>
+      <label class="chk"><input type="checkbox" name="agree" required> Согласен на обработку персональных данных (<a href="#" data-policy>политика</a>)<small class="err"></small></label>
+      <button class="btn" type="submit">Обсудить мой проект</button>
+      <p class="status" role="status" aria-live="polite"></p>
+      
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer dark">
+  <div class="wrap foot">
+    <div><a class="logo" href="#top">FORMA<b>BUILD</b></a><p>Проектируем и строим современные частные дома: от архитектурной идеи до передачи ключей.</p></div>
+    <nav aria-label="Подвал"><a href="#services">Услуги</a><a href="#projects">Проекты</a><a href="#materials">Материалы</a><a href="#process">Этапы</a><a href="#contact">Заявка</a></nav>
+    <address><b>Контакты</b><br><a href="tel:+74951204530">+7 (495) 120-45-30</a><br><a href="mailto:info@forma-build.ru">info@forma-build.ru</a><br>г. Москва, ул. Складочная, 1, стр. 12, офис 304<br>Пн–Пт 9:00–19:00, Сб 10:00–16:00</address>
+    <div><a href="#" data-policy>Политика конфиденциальности</a><br><a href="#top" class="up">Наверх</a></div>
+  </div>
+  <div class="wrap legal"><small>© 2026 FORMA BUILD. Сайт — демонстрационный проект: компания, объекты, цены и контакты вымышлены, изображения созданы ИИ.</small></div>
+</footer>
+<dialog id="policy" aria-labelledby="pT"><div class="pin"><h3 id="pT">Политика конфиденциальности</h3>
+<p><b>Оператор:</b> ООО «ФОРМА БИЛД», г. Москва, ул. Складочная, 1, стр. 12, офис 304.</p>
+<p><b>Какие данные мы получаем.</b> Имя, телефон или email и комментарий, которые вы указываете в форме заявки.</p>
+<p><b>Зачем.</b> Чтобы связаться с вами, обсудить проект и подготовить предложение. Данные не передаются третьим лицам без вашего согласия.</p>
+<p><b>Срок хранения и отзыв согласия.</b> Данные хранятся до достижения цели обработки. Отозвать согласие можно письмом на info@forma-build.ru.</p>
+<button class="btn pclose" type="button">Закрыть</button></div></dialog>
+<button class="top" type="button" aria-label="Наверх">↑</button>
+<div class="mbar"><a class="btn" href="#contact">Обсудить проект</a></div>
+<noscript><style>.rv,.rvi{opacity:1!important;transform:none!important;clip-path:none!important}</style></noscript>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="m-in"><button class="x" aria-label="Закрыть">×</button>
+  <div class="m-img"><button class="pv" aria-label="Предыдущее фото">‹</button><img id="mImg" alt=""><video id="mVid" muted loop playsinline hidden aria-label="Видео проекта"></video><button class="nx" aria-label="Следующее фото">›</button></div>
+  <div class="m-txt"><h3 id="mTitle"></h3><p id="mMeta" class="note"></p><p id="mText"></p></div></div>
+</div>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Просмотр изображения"><button aria-label="Закрыть просмотр">×</button><img alt=""></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
